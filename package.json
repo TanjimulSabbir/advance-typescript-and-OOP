@@ -4,29 +4,19 @@
   "description": "A TypeScript project focused on advanced TypeScript features and Object-Oriented Programming (OOP) concepts.",
   "keywords": [
     "typescript",
-    "oop",
-    "object-oriented-programming",
-    "ts"
+    "oop"
   ],
   "author": "Tanjimul Islam Sabbir",
   "license": "ISC",
-  "type": "module",
-  "main": "dist/index.js",
+  "main": "dist/solutions.js",
   "scripts": {
     "build": "tsc",
-    "start": "node dist/index.js",
-    "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
-    "test": "ts-node src/solutions.ts"
+    "start": "node dist/solutions.js",
+    "dev": "ts-node solutions.ts"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/TanjimulSabbir/advance-typescript-and-OOP.git"
-  },
-  "bugs": {
-    "url": "https://github.com/TanjimulSabbir/advance-typescript-and-OOP/issues"
-  },
-  "homepage": "https://github.com/TanjimulSabbir/advance-typescript-and-OOP#readme",
   "devDependencies": {
+    "@types/node": "^25.6.2",
+    "ts-node": "^10.9.2",
     "typescript": "^6.0.3"
   }
 }
