@@ -1,0 +1,24 @@
+{
+  "name": "assignment-01",
+  "version": "1.0.0",
+  "description": "This Typescript and OPP Concept Clear.",
+  "keywords": [
+    "Typescript",
+    "OOP"
+  ],
+  "homepage": "https://github.com/TanjimulSabbir/advance-typescript-and-OOP#readme",
+  "bugs": {
+    "url": "https://github.com/TanjimulSabbir/advance-typescript-and-OOP/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TanjimulSabbir/advance-typescript-and-OOP.git"
+  },
+  "license": "ISC",
+  "author": "Tanjimul Islam Sabbir",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "tsc-node solutions.ts"
+  }
+}
