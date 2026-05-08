@@ -1,24 +1,22 @@
 {
-  "name": "assignment-01",
+  "name": "advance-typescript-and-oop",
   "version": "1.0.0",
-  "description": "This Typescript and OPP Concept Clear.",
+  "description": "A TypeScript project focused on advanced TypeScript features and Object-Oriented Programming (OOP) concepts.",
   "keywords": [
-    "Typescript",
-    "OOP"
+    "typescript",
+    "oop"
   ],
-  "homepage": "https://github.com/TanjimulSabbir/advance-typescript-and-OOP#readme",
-  "bugs": {
-    "url": "https://github.com/TanjimulSabbir/advance-typescript-and-OOP/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/TanjimulSabbir/advance-typescript-and-OOP.git"
-  },
-  "license": "ISC",
   "author": "Tanjimul Islam Sabbir",
-  "type": "module",
-  "main": "index.js",
+  "license": "ISC",
+  "main": "dist/solutions.js",
   "scripts": {
-    "test": "tsc-node solutions.ts"
+    "build": "tsc",
+    "start": "node dist/solutions.js",
+    "dev": "ts-node solutions.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
   }
 }
